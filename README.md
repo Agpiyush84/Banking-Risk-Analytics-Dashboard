@@ -31,7 +31,6 @@ Multiple relational tables including:
 - `Banking Relationship`
 - `Gender`
 - `Investment Advisor`
-- `Period`
 
 ---
 
