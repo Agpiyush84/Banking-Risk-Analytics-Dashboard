@@ -51,7 +51,7 @@ Bank Loan = SUM('Clients - Banking'[Bank Loans])
 Total Deposit = [Bank Deposit] + [Savings Account] + [Foreign Currency Account] + [Checking Accounts]
 Total Fees = SUMX('Clients - Banking', [Total Loan] * 'Clients - Banking'[Processing Fees])
 Engagement Days = DATEDIFF('Clients - Banking'[Joined Bank], TODAY(), DAY)
-
+```
 
 ## 📊 KPIs Tracked
 
